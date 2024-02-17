@@ -37,12 +37,5 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_TOKEN }}
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
-    - uses: casperdcl/deploy-pypi@v2
-      with:
-        build: --sdist --wheel --outdir dist .
-        # only upload if a tag is pushed (otherwise just build & check)
-        upload: ${{ github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') }}
 
         
