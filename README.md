@@ -24,7 +24,7 @@ To install it, use :
 ### Import Ensapp Package
 
 ```python
-from ensapp_api import ensapp
+from ensapp import ensapp
 ```
 ### Create Instance Of ensapp
 replace appoge and password with yours
