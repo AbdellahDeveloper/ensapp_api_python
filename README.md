@@ -15,7 +15,7 @@ Implementation Of Ensapp Rest API in Python :
 To install it, use :
 
 ```bash
-  pip install ensapp
+pip install ensapp
 ```
 
 
